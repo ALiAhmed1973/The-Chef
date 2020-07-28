@@ -1,0 +1,36 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="TextAppearance.AppCompat.Widget.ActionBar.Title" parent="@android:style/TextAppearance">
+        <item name="android:fontFamily">@font/aclonica</item>
+    </style>
+
+    <style name="MainFont">
+        <item name="android:fontFamily">@font/aclonica</item>
+    </style>
+    <style name="ErrorText" parent="MainFont">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:text">@string/error_message</item>
+    </style>
+    <style name="MainButtons" parent="MainFont">
+        <item name="android:textColor">@color/icons</item>
+        <item name="android:fontFamily">@font/aclonica</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:background">@color/colorAccent</item>
+    </style>
+    <style name="IngredientsButton" parent="MainButtons">
+        <item name="android:text">@string/ingredients</item>
+       <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">100dp</item>
+    </style>
+
+</resources>

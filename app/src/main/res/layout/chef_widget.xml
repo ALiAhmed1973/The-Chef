@@ -1,0 +1,21 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/primary_light"
+    android:padding="@dimen/widget_margin">
+
+    <TextView
+        android:id="@+id/appwidget_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:gravity="center"
+        android:background="@color/primary_light"
+        android:fontFamily="@font/aclonica"
+        android:contentDescription="@string/appwidget_text"
+        android:text="@string/app_name"
+        android:textColor="@color/secondary_text"
+        android:textSize="15sp" />
+
+</LinearLayout>
